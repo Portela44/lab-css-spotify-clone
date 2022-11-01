@@ -15,13 +15,9 @@
 }
 
 .navbar > img {
-    height: 80%;
+    height: 70%;
     align-self: center;
     padding-left: 15px;
-}
-
-.nav-logo {
-    width:200px;
 }
 
 .top-menu {
@@ -35,10 +31,37 @@
     padding: 0px 15px;
 }
 
+.top-menu > ul > li > a {
+    text-decoration: none;
+    color: var(--text)
+}
+
 /* HEADER SECTION */
 .header {
     background-image: url("../images/landing.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
+
+.header > h1,h3 {
+    color:white;
+}
+
+.header > h1 {
+    font-size: 6em;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.header > h3 {
+    font-size: 2em;
+    font-weight: 150;
+    width: 50vw;
+    align-self: center;
+}
+
