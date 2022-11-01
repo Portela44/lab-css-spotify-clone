@@ -1,8 +1,44 @@
-/*
-Colors:
+:root {
+    --text: #1A1A1A;
+    --green: #00B172;
+    --white: #FFF
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* NAVBAR */
+.navbar {
+    position:fixed;
+    background-color: var(--white);
+    width:100vw;
+    height: 90px;
+    display:flex;
+    justify-content: space-between;
+}
 
-*/
+.navbar > img {
+    height: 80%;
+    align-self: center;
+    padding-left: 15px;
+}
+
+.nav-logo {
+    width:200px;
+}
+
+.top-menu {
+    align-self: center;
+    margin-left: 15px;
+}
+
+.top-menu > ul > li {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0px 15px;
+}
+
+/* HEADER SECTION */
+.header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
