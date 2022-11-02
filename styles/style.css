@@ -4,6 +4,10 @@
     --white: #FFF
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* NAVBAR */
 .navbar {
     position:fixed;
@@ -54,19 +58,18 @@
 
 .header > h1 {
     font-size: 6rem;
-    font-weight: 600;
+    font-weight: 900;
     margin: 30px;
 }
 
 .header > h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 150;
     width: 50vw;
     align-self: center;
 }
 
 /* FEATURES SECTION */
-
 .whats-on-spotify {
     display:flex;
     flex-direction: column;
@@ -76,6 +79,7 @@
 .section-title {
     text-align: center;
     font-size: 2rem;
+    font-weight: 800;
     display: inline-block;
     border-bottom: 4px solid var(--green);
     align-self: center;
@@ -120,4 +124,54 @@
     text-align: center;
 }
 
+/* OPTIONS SECTION */
+.example-section {
+    background-color: var(--green);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    color:white;
+}
+
+.example-text {
+    height: 80%;
+    display:flex;
+    width:40%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.example-title {
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.example-subtitle, .example-description {
+    width: 60%;
+}
+
+.example-subtitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.example-description{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.white-logo {
+    position: absolute;
+    width: 10vw;
+    left:50%;
+}
+
+.app-image {
+    height:70%;
+    z-index: 1;
+}
 
